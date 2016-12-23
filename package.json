@@ -9,6 +9,7 @@
     "autoprefixer": "^6.6.0",
     "browser-sync": "^2.18.5",
     "gulp": "^3.9.1",
+    "gulp-inject-partials": "^1.0.2",
     "gulp-postcss": "^6.2.0",
     "gulp-watch": "^4.3.11",
     "postcss-hexrgba": "^0.2.1",
