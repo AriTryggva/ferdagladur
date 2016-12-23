@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 {
   "name": "ferdagladur",
   "version": "1.0.0",
@@ -20,4 +18,3 @@
     "postcss-simple-vars": "^3.0.0"
   }
 }
->>>>>>> 3072397db5368a53e94015d44cd0e3767284c3f3
