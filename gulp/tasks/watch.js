@@ -23,13 +23,13 @@ gulp.task('watch', function(){
     gulp.start('scriptsRefresh');
   });
 
-  watch('./app/**/*.html', function() {
+  watch('./app/partial/**/*.html', function() {
     gulp.start('index');
   });
 
 });
 
-gulp.task('cssInject', ['styles'], function() {
+gulp.task('cssInject', ['styles, index'], function() {
   return gulp.src('./app/temp/styles/styles.css')
   .pipe(browserSync.stream());
 });
