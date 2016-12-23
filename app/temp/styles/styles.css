@@ -1,0 +1,11 @@
+body {
+  font-size: 2.8rem;
+  color: #2f5572;
+  padding: 10px;
+  -webkit-columns: 300px 2;
+     -moz-columns: 300px 2;
+          columns: 300px 2;
+}
+body--test {
+  padding: 10px;
+}
