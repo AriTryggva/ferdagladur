@@ -24,12 +24,12 @@ gulp.task('watch', function(){
   });
 
   watch('./app/partial/**/*.html', function() {
-    gulp.start('index');
+    gulp.start('partial');
   });
 
 });
 
-gulp.task('cssInject', ['styles, index'], function() {
+gulp.task('cssInject', ['styles'], function() {
   return gulp.src('./app/temp/styles/styles.css')
   .pipe(browserSync.stream());
 });
