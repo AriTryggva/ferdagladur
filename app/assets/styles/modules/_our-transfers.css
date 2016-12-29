@@ -1,13 +1,11 @@
-body {
-  font-family: 'Roboto', sans-serif;
-  color: #2f5572;
-}
+
 .site-footer__address-location-icon {
 width: 16px;
 height: 16px;
 vertical-align: middle;
 margin-bottom: 5px;	
 }
+
 .site-footer__address {
-  color: #ee9e3b;
+  color: $mainYellow;
 }
