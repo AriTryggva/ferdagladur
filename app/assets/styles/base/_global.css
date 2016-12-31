@@ -1,4 +1,17 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: $mainBlue;
+  color: $mainGray;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: $mainYellow;
 }
